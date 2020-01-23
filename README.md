@@ -3,7 +3,7 @@
 After my girlfriend and I took a life changing trip to Italy in June 2019, I decided to design a website to showcase our experience. The core of the
 website are the image galleries of the various cities we visited, but they are presented through a fun and user friendly platform.
 
-view project life: italy.matthewmneal.com
+view project live: italy.matthewmneal.com
 
 to view locally: 1.) download zip file
 		 2.) extract folder inside zip file to somewhere on your computer
