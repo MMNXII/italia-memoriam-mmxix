@@ -1,0 +1,277 @@
+html, body {
+  background-color: #fdf9b8;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+#headerContainer {
+    padding-top: 1.5rem;
+    display: grid;
+    grid-template-columns: 37vw auto 37vw;
+    grid-template-rows: repeat(3,1fr);
+    margin-bottom: 3.5em;
+}
+
+#greenLeft, #greenRight, #redLeft, #redRight, #whiteLeft, #whiteRight {
+    height: 12px;
+    margin-top: 1rem;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#greenRight, #redRight, #whiteRight {
+    grid-column: 3;
+}
+
+#greenLeft, #greenRight {
+    background-color: rgb(0, 140, 69);
+}
+
+#whiteLeft, #whiteRight {
+    background-color: rgb(244, 245, 240);
+}
+
+#redLeft, #redRight {
+    background-color: rgb(205, 33, 42);
+}
+
+#headerText {
+    grid-column: 2;
+    grid-row: 1/4;
+    margin: auto 0;
+    width: 100%;
+}
+
+#italy {
+    align-items: center;
+    font-family: 'Prociono', serif;
+    text-align: center;
+    font-size: 4rem;
+    margin: 0;
+    padding-bottom: .4rem;
+}
+
+
+#intro, #intro2 {
+    text-align: center;
+    font-family: 'Prociono', serif;
+    font-size: 1.8em;
+    line-height: 1.4em;
+    max-width: 40em;
+    margin: 0 auto;
+}
+
+#intro2 {
+    margin-top: 5em;
+}
+
+#arrowContainer {
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+    margin-top: 1em;
+    animation-name: arrowBounce;
+    animation-duration: .5s;
+    animation-delay: 11s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+
+#arrow {
+    margin-top: .3em;
+    width: 85%;
+    min-width: 85%;
+    height: 85%;
+    min-height: 85%;
+}
+
+@keyframes arrowBounce {
+    from {margin-top: 1em;}
+    to {margin-top: 2.5em;}
+}
+
+#arrowContainer:hover {
+    background-image: linear-gradient(to right, rgba(0, 140, 70, 0.65), rgb(244, 245, 240, 0.65), rgb(205, 33, 42, 0.65));
+    border-radius: 50%;
+
+}
+
+
+#mapContainer {
+    position: relative;
+    top: 25em;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+#mapRef {
+    position: absolute;
+    width: 100%;
+    margin-top: 43em;
+}
+
+#map {
+    position: relative;
+    width: 50%;
+    height: auto;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+#mapFeatherTop {
+    position: absolute;
+    top: 0;
+    height: 22vh;
+    width: 100%;
+    background-image: linear-gradient(to top, rgba(255,0,0,0), rgba(253,249,184,3) 70%);
+    z-index: 1;
+
+
+}
+
+#mapFeatherBottom {
+    position: absolute;
+    bottom: 0;
+    height: 10vh;
+    width: 100%;
+    background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgba(253,249,184,3) 70%);
+    z-index: 1;
+}
+
+#veniceMarker, #veniceMarker:hover, #florenceMarker, #florenceMarker:hover, 
+#romeMarker, #romeMarker:hover, #amalfiMarker, #amalfiMarker:hover, #casertaMarker, #casertaMarker:hover {
+    position: absolute;
+    display: block;
+    z-index: 2;
+    transition: width .3s, height .3s;
+}
+
+#veniceMarker, #florenceMarker, #romeMarker, #amalfiMarker, #casertaMarker {
+    border-radius: 50%;
+}
+
+#veniceMarker:hover, #florenceMarker:hover, #romeMarker:hover, #amalfiMarker:hover, #casertaMarker:hover {
+    border-radius: 10%;
+}
+
+#veniceMarker {
+    left: 48%;
+    top: 25.7%;
+    height: 3%;
+    width: 2.5%;
+    background-color: rgb(89, 180, 255);
+}
+
+#veniceMarker:hover {
+    left: 48%;
+    top: 25.7%;
+    height: 4.1%;
+    width: 11.7%;
+    border-radius: 10%;
+    font-size: 3.7vw;
+    color: rgb(253, 159, 18);
+    background-color: rgb(89, 180, 255);
+    padding-bottom: .2em;
+
+
+}
+
+#florenceMarker {
+    left: 42%;
+    top: 39.1%;
+    height: 3%;
+    width: 2.5%;
+    background-color: rgb(238, 238, 238);
+}
+
+#florenceMarker:hover {
+    left: 42%;
+    top: 39.1%;
+    height: 4.2%;
+    width: 13%;
+    font-size: 3vw;
+    color: rgb(255, 0, 0);
+    background-color: rgb(238, 238, 238);
+}
+
+
+#romeMarker {
+    left: 49%;
+    top: 56.2%;
+    height: 3%;
+    width: 2.5%;
+    background-color: rgb(192, 0, 0);
+}
+
+#romeMarker:hover {
+    left: 49%;
+    top: 56.2%;
+    height: 5%;
+    width: 11.5%;
+    font-size: 3.3vw;
+    color: rgb(255, 139, 44);
+    background-color: rgb(192, 0, 0);
+    z-index: 4;
+}
+
+
+
+#casertaMarker {
+    left: 58.5%;
+    top: 60%;
+    height: 3%;
+    width: 2.5%;
+    background-color: rgb(0, 60, 255);
+}
+
+#casertaMarker:hover {
+    left: 58.5%;
+    top: 60%;
+    height: 4.8%;
+    width: 13%;
+    font-size: 3.5vw;
+    color: rgb(255, 40, 40);
+    background-color: rgb(0, 60, 255);
+    z-index: 3;
+}
+
+
+
+#amalfiMarker {
+    left: 61%;
+    top: 64%;
+    height: 3%;
+    width: 2.5%;
+    background-color: rgb(0, 44, 163);
+}
+
+#amalfiMarker:hover {
+    left: 61%;
+    top: 64%;
+    height: 5.5%;
+    width: 12%;
+    font-size: 3.6vw;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 44, 163);
+}
+
+
+
+
+
+
+

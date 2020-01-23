@@ -1,0 +1,171 @@
+html, body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+  
+html {
+    scroll-behavior: smooth;
+}
+  
+#headerContainer {
+    margin-top: 18vh;
+    margin-left: 26.5vw;
+    display: inline-block;
+      
+}
+  
+#amalfiHeaderText {
+    font-family: "Marck Script", cursive;
+    font-size: 6em;
+    margin: 0 auto;
+    color: rgb(0, 44, 163);
+}
+
+
+#intro {
+    position: relative;
+    float: right;
+    margin-top: 2em;
+    margin-bottom: 20em;
+    margin-right: 1em;
+    text-align: right;
+    font-family: 'Prociono', serif;
+    font-size: 1.5em;
+    color: rgb(255, 255, 255);
+    line-height: 1.4em;
+    max-width: 28em;
+}
+  
+  
+#arrow {
+    margin-right: 12em;
+    width: 25px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 5px;
+    cursor: pointer;
+    animation-name: fade;
+    animation-duration: 4s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+  
+  
+@keyframes fade {
+    0% {background-color: rgba(0, 140, 70, 0.65);}
+    50% {background-color: rgb(244, 245, 240, 0.65);}
+    100% {background-color: rgb(205, 33, 42, 0.65);}
+}
+  
+  
+#slideShowContainer {
+    position: absolute;
+    margin-top: 80vh;
+    margin-left: 25vw;
+    margin-right: 25vw;
+    width: 50%;
+    min-width: 300px;
+    height: 85%;
+    background-color: rgba(0, 23, 128, 0);
+    text-align: center;
+    overflow: hidden;
+    transition: .6s linear;  
+  }
+  
+#slideShowContainer:hover {
+    background-color: rgba(0, 23, 128, 0.87);
+  
+}
+  
+.imgContainer {
+    display: none;
+}
+  
+  
+.imgNumber {
+    color: #f2f2f2;
+    font-size: .9em;
+    padding-top: .em;
+    padding-left: .2em;
+    position: absolute;
+    top: 0;
+}
+  
+.captionText {
+    color: #ffffff;
+    font-size: 1.5em;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+  
+#prevImg, #nextImg {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-size: 30px;
+    transition: .6s linear;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+  
+#prevImg {
+    left: 0;
+}
+  
+#nextImg {
+    right: 0;
+}
+  
+#prevImg:hover, #nextImg:hover {
+    color: red;
+}
+  
+  
+
+  
+{
+    transform: rotate(180deg);
+    min-width: 300px;
+}
+
+#img1, #img9, #img11, #img18, #img21 {
+    transform: rotate(-90deg);
+    min-width: 300px;
+}
+
+#img2, #img3, #img5, #img8, #img10, #img12, #img13, #img14, #img16, #img17, #img19, #img20, #img23, #img24 {
+    transform: rotate(90deg);
+    min-width: 300px;  
+}
+  
+#img1, #img2, #img3, #img5, #img8, #img9, #img10, #img11, #img12, #img13, #img14, #img16, #img17, #img18, #img19, #img20, #img21, #img23, #img24, #img25 {
+    object-fit: contain;
+    margin-top: 4em;
+    width: 68%;
+    min-width: 300px;
+    height: auto;  
+}
+
+#img4, #img6, #img7, #img15, #img22, #img26 {
+    object-fit: contain;
+    width: 88%;
+    min-width: 300px;
+    height: auto;
+}
+  
+
+#footer {
+    height: 3vh;
+}
