@@ -7,7 +7,7 @@ link to project: https://github.com/MMNXII/Italia_Memoriam_MMXIX
 
 to view locally: 1.) download zip file
 		 2.) extract folder inside zip file to somewhere on your computer
-		 3.) open "html" folder, right click on "index.html" and open in a web browser (preferably Google Chrome)
+		 3.) right click on "index.html" and open in a web browser (preferably Google Chrome)
 		 4.) enjoy!
 
 
