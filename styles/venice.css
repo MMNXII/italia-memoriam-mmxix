@@ -5,17 +5,18 @@ html, body {
   width: 100%;
   height: 100%;
 }
-
 html {
     scroll-behavior: smooth;
 }
 
+
+
+/* header */
 #headerContainer {
     margin-top: 2em;
     text-align: center;
     
 }
-
 #veniceHeaderText {
     font-family: "Lobster", cursive;
     font-size: 6em;
@@ -23,19 +24,30 @@ html {
     color: rgb(253, 159, 18);
 }
 
+
+
+/* intro para */
 #intro {
     text-align: center;
     font-family: 'Prociono', serif;
-    font-size: 1.5em;
-    color: rgb(0, 0, 148);
+    font-size: 1.4em;
     line-height: 1.4em;
-    max-width: 40em;
+    color: rgb(0, 0, 148);
+    width: 82%;
     margin: 0 auto;
     padding-top: 1em;
     padding-bottom: 28em;
 }
+@media only screen and (min-width: 850px) {
+    #intro {
+        font-size: 1.7em;
+        width: 850px;
+    }
+}
 
 
+
+/* arrow */
 #arrow {
     width: 25px;
     height: 25px;
@@ -125,6 +137,10 @@ html {
 
 #prevImg:hover, #nextImg:hover {
     color: red;
+}
+
+#imgContainer {
+    image-orientation: from-image;
 }
 
 

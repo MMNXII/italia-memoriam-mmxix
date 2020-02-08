@@ -25,6 +25,11 @@ body {
     grid-template-rows: repeat(3,1fr);
     margin-bottom: 3em;
 }
+@media only screen and (min-width: 800px) {
+    #headerContainer {
+    grid-template-columns: auto 20% auto;
+    }
+}
 #greenLeft, #greenRight, #redLeft, #redRight, #whiteLeft, #whiteRight {
     height: 12px;
     margin-top: 1rem;
@@ -68,9 +73,16 @@ body {
     width: 82%;
     margin: 0 auto;
 }
+@media only screen and (min-width: 830px) {
+    #intro {
+        font-size: 1.7em;
+        width: 830px;
+    }
+}
 #intro2 {
     margin-top: 2em;
 }
+
 
 
 /* arrow */
