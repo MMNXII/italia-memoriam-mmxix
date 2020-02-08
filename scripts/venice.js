@@ -1,9 +1,9 @@
 
 
-// document.body.style.backgroundImage = "url('../images/venice/background.jpg')";
-// document.body.style.backgroundPosition = "center";
-// document.body.style.backgroundRepeat = "no-repeat";
-// document.body.style.backgroundSize = "fill";
+document.body.style.backgroundImage = "url('../images/venice/background.jpg')";
+document.body.style.backgroundPosition = "center";
+document.body.style.backgroundRepeat = "no-repeat";
+document.body.style.backgroundSize = "fill";
 
 
 // let header = document.getElementById("headerContainer");
@@ -38,27 +38,4 @@
 //     }
 
 
-
-let a;
-let index = 1;
-showSlides(index);
-
-    function slides(n) {
-        showSlides(index += n);
-    }
-
-        function showSlides(n) {
-            let images = document.getElementsByClassName("imgContainer");
-                if (n > images.length) {
-                    index = 1;
-
-                } if (n < 1) {
-                    index = images.length;
-
-                } for (a = 0; a < images.length; a++) {
-                    images[a].style.display = "none";
-                }
-
-                images[index-1].style.display = "block";
-        }
 
