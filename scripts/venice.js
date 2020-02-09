@@ -1,17 +1,16 @@
 
-
 document.body.style.backgroundImage = "url('../images/venice/background.jpg')";
+document.body.style.backgroundColor = "rgba(0, 97, 117, 0.85)";
 document.body.style.backgroundPosition = "center";
 document.body.style.backgroundRepeat = "no-repeat";
 document.body.style.backgroundSize = "fill";
 
-
-// let header = document.getElementById("headerContainer");
+// var header = document.getElementById("headerContainer");
 //     header.style.opacity = "0";
-// let introPara = document.getElementById("intro");
+// var introPara = document.getElementById("intro");
 //     introPara.style.opacity = "0";
-// let arrow = document.getElementById("arrow");
-//     arrow.style.opacity = "0";
+// var imageContainer = document.getElementById("images");
+//     images.style.opacity = "0";
 
 //     function headerFade() {
 //         header.style.opacity = "1";
@@ -26,16 +25,80 @@ document.body.style.backgroundSize = "fill";
 //             introPara.style.transitionDelay = "4s";
 
 //             function arrowFade() {
-//                 arrow.style.opacity = "1";
-//                 arrow.style.transitionProperty = "opacity";
-//                 arrow.style.transitionDuration = "3s";
-//                 arrow.style.transitionDelay = "22s";
+//                 images.style.opacity = "1";
+//                 images.style.transitionProperty = "opacity";
+//                 images.style.transitionDuration = "3s";
+//                 images.style.transitionDelay = "22s";
 //             }
 
 //                 arrowFade();
 //             }
 //         introParaFade();
 //     }
+
+
+function captionAppear(className) {
+    var captions = document.getElementById("imgContainer")
+        .getElementsByClassName(className);
+
+    for(let i = 0; i<captions.length; i++) {
+        captions[i].style.opacity = "0";
+
+        captions[i].addEventListener("click", func = () => {
+
+            if (captions[i].style.opacity == "0") {
+            captions[i].style.opacity = "1";
+            captions[i].style.transition = "opacity .5s linear";
+            captions[i].style.backgroundColor = "rgba(255, 255, 255, 0.70)";
+
+            } else {
+                captions[i].style.opacity = "0";
+            }
+        });
+    }
+}
+
+captionAppear("caption");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
+
+
+
+
+
 
 
 
