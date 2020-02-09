@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+        <meta name="description" content="Trip to Italy 2019 - Florence">
+        <meta name="author" content="Matthew Neal">
         <link rel="stylesheet" type="text/css" href="..\styles\florence.css">
         <link href="https://fonts.googleapis.com/css?family=Ibarra+Real+Nova:700|Lobster|Marck+Script|Prociono|Quicksand:500|Stoke&display=swap" rel="stylesheet">
-
-        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Florence</title>
     </head>
 <body onload="headerFade()">
 
     <div id="headerContainer">
-        <h1 id="florenceHeaderText">Florence</h1>
+        <h1 id="headerText">Florence</h1>
     </div>
 
-    <section id="intro">
+    <div id="intro">
         <p>Florence was our first main hub while on our trip, and boy did we set the bar high. Florence was my favorite city
             on the trip (and possibly the world) as it encomposses everything I love about Italy in such a perfect way.
             Most know that the city embodies The Renaissance but you truly can't understand it until you've been there. From
@@ -22,201 +24,47 @@
             we will never forget...
 
         </p>
-        <a href="#slideShowContainer"><img id="arrow" src="..\images\arrow2.png"></a>
-    </section>
-
-    <section id="slideShowContainer">
-
-        <div class="imgContainer">
-            <div class="imgNumber">1 / 30</div>
-            <img id="img1" src="..\images\florence\edit\1.jpg">
-            <div class="captionText">Weclome to Florence!...a fantastic indoor / outdoor farmer's market we found </div>
+    </div>
+    <div id="imgContainer">
+        <div class="subImgContainer" id="container1">
+            <img class="img" src="../images/florence/edit/4.jpg">
+                <figcaption class="caption">Our first view off the train, welcome to Venice!</figcaption>
         </div>
-
-        <div class="imgContainer">
-            <div class="imgNumber">2 / 30</div>
-            <img id="img2" src="..\images\florence\edit\2.jpg">
-            <div class="captionText">Inner courtyard of the <em>Palazzo Vecchio (Old Palace)</em>, a 13th century palace which still serves as the town hall of Florence </div>
+        <div class="subImgContainer" id="container2">
+            <img class="img" src="../images/florence/edit/6.jpg">
+                <figcaption class="caption">The Mcdonald's of Venice for the American tourists</figcaption>
         </div>
-
-        <div class="imgContainer">
-            <div class="imgNumber">3 / 30</div>
-            <img id="img3" src="..\images\florence\edit\3.jpg">
-            <div class="captionText">Typical street view with old buildings and narrow cobblestone roads. This was right near our next lunch spot...</div>
+        <div class="subImgContainer" id="container3">
+            <img class="img" src="../images/florence/edit/10.jpg">
+                <figcaption class="caption">Quintissential Venice: Rialto Bridge</figcaption>
         </div>
-
-        <div class="imgContainer">
-            <div class="imgNumber">4 / 30</div>
-            <img id="img4" src="..\images\florence\edit\4.jpg">
-            <div class="captionText">...Lunch! Such a fantastic little pizza shop called <em>Mangia Pizze Firenze</em>, our first meal in Florence</div>
+        <div class="subImgContainer" id="container4">
+            <img class="img" src="../images/florence/edit/17.jpg">
+                <figcaption class="caption">St. Mark's square</figcaption>
         </div>
-
-        <div class="imgContainer">
-            <div class="imgNumber">5 / 30</div>
-            <img id="img5" src="..\images\florence\edit\5.jpg">
-            <div class="captionText">We decided to cross the river and check out a different neighborhood and stumbled upon this great wine shop</div>
+        <div class="subImgContainer" id="container5">
+            <img class="img" src="../images/florence/edit/18.jpg">
+                <figcaption class="caption">Extravagantly designed Doge's Palace!</figcaption>
         </div>
-
-        <div class="imgContainer">
-            <div class="imgNumber">6 / 30</div>
-            <img id="img6" src="..\images\florence\edit\6.jpg">
-            <div class="captionText">Classic view over the Arno river of the <em>Ponte Vecchio (old bridge)</em>, a medieval era bridge which still houses vendors as it did back in olden times</div>
+        <div class="subImgContainer" id="container6">
+            <img class="img" src="../images/florence/edit/19.jpg">
+                <figcaption class="caption">Church of St. George as seen from the main island</figcaption>
         </div>
-
-        <div class="imgContainer">
-            <div class="imgNumber">7 / 30</div>
-            <img id="img7" src="..\images\florence\edit\7.jpg">
-            <div class="captionText">The architecure of the <em>Duomo di Firenze (Cathedral of Florence)</em> will always amaze me. Here you see the trio of the baptistry, church, and bell tower</div>
+        <div class="subImgContainer" id="container7">
+            <img class="img" src="../images/florence/edit/19.jpg">
+                <figcaption class="caption">A look at the architecture near St. Mark's square</figcaption>
         </div>
-
-        <div class="imgContainer">
-            <div class="imgNumber">8 / 30</div>
-            <img id="img8" src="..\images\florence\edit\8.jpg">
-            <div class="captionText"><em>Campanile di Giotto (Giotto's Belltower),</em> is more massive than you could imagine</div>
+        <div class="subImgContainer" id="container8">
+            <img class="img" src="../images/florence/edit/23.jpg">
+                <figcaption class="caption">Heading towards the park near the end of the island</figcaption>
         </div>
-
-        <div class="imgContainer">
-            <div class="imgNumber">9 / 30</div>
-            <img id="img9" src="..\images\florence\edit\9.jpg">
-            <div class="captionText">The main portal to the church. The facade gives the viewer a feeling of grandeur like no other!</div>
+        <div class="subImgContainer" id="container9">
+            <img class="img" src="../images/florence/edit/30.jpg">
+                <figcaption class="caption">A look back towards Venice's classic skyline from the park</figcaption>
         </div>
-
-        <div class="imgContainer">
-            <div class="imgNumber">10 / 30</div>
-            <img id="img10" src="..\images\florence\edit\10.jpg">
-            <div class="captionText">One of the many government buildings areound Florence</div>
-        </div>
-
-        <div class="imgContainer">
-            <div class="imgNumber">11 / 30</div>
-            <img id="img11" src="..\images\florence\edit\11.jpg">
-            <div class="captionText">Our first meal inside the farmer's market. Who knew cappuccinos and mini capicola and prioscutto sandwiches paired so well?</div>
-        </div>
-
-        <div class="imgContainer">
-            <div class="imgNumber">12 / 30</div>
-            <img id="img12" src="..\images\florence\edit\12.jpg">
-            <div class="captionText">view of the farmer's market. You best bet we took home some cheeses and meats! </div>
-        </div>
-
-        <div class="imgContainer">
-            <div class="imgNumber">13 / 30</div>
-            <img id="img13" src="..\images\florence\edit\13.jpg">
-            <div class="captionText">Statue in one of the various niches around Florence, you can sense the emotion through the artwork!</div>
-        </div>
-
-        <div class="imgContainer">
-            <div class="imgNumber">14 / 30</div>
-            <img id="img14" src="..\images\florence\edit\14.jpg">
-            <div class="captionText">Robyn of course had to get a picture with one of her favorite authors, <em>Dante Alighieri</em>. </div>
-        </div>
-
-        <div class="imgContainer">
-            <div class="imgNumber">15 / 30</div>
-            <img id="img15" src="..\images\florence\edit\15.jpg">
-            <div class="captionText">We found this awesome music store with vinyl. Rock out!</div>
-        </div>
-
-        <div class="imgContainer">
-            <div class="imgNumber">16 / 30</div>
-            <img id="img16" src="..\images\florence\edit\16.jpg">
-            <div class="captionText">Robyn and I in front of the <em>National Public Library of Florence</em>, it has over 5 million books!</div>
-        </div>
-
-        <div class="imgContainer">
-            <div class="imgNumber">17 / 30</div>
-            <img id="img17" src="..\images\florence\edit\17.jpg">
-            <div class="captionText">a view of the outdoor gallery of sculpture from the <em>Palazzo Vecchio</em>. As you can see...high tourist season</div>
-        </div>
-
-        <div class="imgContainer">
-            <div class="imgNumber">18 / 30</div>
-            <img id="img18" src="..\images\florence\edit\18.jpg">
-            <div class="captionText">Florence Cathedral from the outdoor balcony of the world famous museum, the <em>Galleria degli Uffizi (Gallery of the Offices)</em></div>
-        </div>
-
-        <div class="imgContainer">
-            <div class="imgNumber">19 / 30</div>
-            <img id="img19" src="..\images\florence\edit\19.jpg">
-            <div class="captionText">In the <em>Uffizi</em>, I was lucky enough to get a shot of all of the muses, and no one else! (believe me there were tourists everywhere)</div>
-        </div>
-
-        <div class="imgContainer">
-            <div class="imgNumber">20 / 30</div>
-            <img id="img20" src="..\images\florence\edit\20.jpg">
-            <div class="captionText">One of my finest pictures ever taken. Sunset over Florence taken from the <em>Piazza di Michelangelo</em>, a popular gathering spot located on a hill over looking the city</div>
-        </div>
-
-        <div class="imgContainer">
-            <div class="imgNumber">21 / 30</div>
-            <img id="img21" src="..\images\florence\edit\21.jpg">
-            <div class="captionText">I love sandwiches, and this place, <em>All' Antico Vinaio</em>, might have had the best one I've ever had. Just look at those fresh meats and cheeses!</div>
-        </div>
-
-        <div class="imgContainer">
-            <div class="imgNumber">22 / 30</div>
-            <img id="img22" src="..\images\florence\edit\22.jpg">
-            <div class="captionText">Robyn and I went on a back country jeep tour in the hills of Tuscany, this was taken a top one of the hills. One of the coolest experiences ever and our guide, Jonny, was awesome!</div>
-        </div>
-
-        <div class="imgContainer">
-            <div class="imgNumber">23 / 30</div>
-            <img id="img23" src="..\images\florence\edit\23.jpg">
-            <div class="captionText">At the end of the tour he took us to Sting's vineyard near the village of <em>Figline Valdardno</em>, where we tasted local wine</div>
-        </div>
-
-        <div class="imgContainer">
-            <div class="imgNumber">24 / 30</div>
-            <img id="img24" src="..\images\florence\edit\24.jpg">
-            <div class="captionText">As soon as you walk out of the train station in Florence, you're greeted with architecture, my favorite</div>
-        </div>
-
-        <div class="imgContainer">
-            <div class="imgNumber">25 / 30</div>
-            <img id="img25" src="..\images\florence\edit\25.jpg">
-            <div class="captionText">One of our main goals in Florence was to get florentine steak, and here at <em>Il Latini</em> we did just that. Let's just say we were NOT dissappointed</div>
-        </div>
-
-        <div class="imgContainer">
-            <div class="imgNumber">26 / 30</div>
-            <img id="img26" src="..\images\florence\edit\26.jpg">
-            <div class="captionText">The facade of the church near the train station. Florence immerses you automatically in it's history as soon as you step foot off the train</div>
-        </div>
-
-        <div class="imgContainer">
-            <div class="imgNumber">27 / 30</div>
-            <img id="img27" src="..\images\florence\edit\27.jpg">
-            <div class="captionText">Yes...I ordered this meal all in Italian!</div>
-        </div>
-
-        <div class="imgContainer">
-            <div class="imgNumber">28 / 30</div>
-            <img id="img28" src="..\images\florence\edit\28.jpg">
-            <div class="captionText">Near the <em>Ponte Vecchio</em> starting our journey in Florence. It was hot, but it was worth it</div>
-        </div>
-
-        <div class="imgContainer">
-            <div class="imgNumber">29 / 30</div>
-            <img id="img29" src="..\images\florence\edit\29.jpg">
-            <div class="captionText">This time on the <em>Ponte Vecchio</em>!</div>
-        </div>
-
-        <div class="imgContainer">
-            <div class="imgNumber">30 / 30</div>
-            <img id="img30" src="..\images\florence\edit\30.jpg">
-            <div class="captionText">Another view of Florence from <em>Piazza di Michelangelo</em>. Pictures like this make you think how much Florence has to offer when it comes to art, architecture, history, and culture as a whole</div>
-        </div>
-
-        <a id="prevImg" onclick="slides(-1)"><</a>
-        <a id="nextImg" onclick="slides(+1)">></a>
-
-    </section>
-
-    <section id="footer">
-    </section>
+    </div>
 
     <script src="..\scripts\florence.js"></script>
 
 </body>
 </html>
-

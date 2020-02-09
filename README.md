@@ -21,6 +21,9 @@ https://mapswire.com/countries/italy/
 Venice background:
 https://wallpaperaccess.com/venice
 
+Florence background:
+https://wallpaperaccess.com/florence
+
 arrow home page down:
 https://www.freeiconspng.com/img/44420
 

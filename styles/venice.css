@@ -19,9 +19,8 @@ html {
 #headerContainer {
     margin-top: 2em;
     text-align: center;
-    
 }
-#veniceHeaderText {
+#headerText {
     font-family: "Lobster", cursive;
     font-size: 6em;
     margin: 0 auto;
@@ -47,7 +46,6 @@ html {
         font-size: 1.5em;
         width: 850px;
         margin: 0 auto;
-
     }
 }
 
@@ -84,9 +82,9 @@ html {
 } 
 @keyframes border-fade {
     0% {border-color: rgba(253, 159, 18, 0);}
-    100% {border-color: rgba(253, 159, 18, 0.541);}
+    100% {border-color: rgba(253, 159, 18, 0.753);}
 }
-.veniceImg {
+.img {
     display: block;
     width: 100%;
     height: 100%;
