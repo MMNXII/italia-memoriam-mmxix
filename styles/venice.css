@@ -77,6 +77,12 @@ html {
     animation-timing-function: linear;
     animation-direction: alternate;
 }
+@media only screen and (min-width: 200px) and (max-width: 490px ) {
+    .subImgContainer {
+        width: 60%;
+        height: 60%;
+    }
+}
 .subImgContainer:hover {
     cursor: pointer;
 } 
