@@ -24,6 +24,9 @@ https://wallpaperaccess.com/venice
 Florence background:
 https://wallpaperaccess.com/florence
 
+Rome background:
+https://wallpaperaccess.com/rome
+
 arrow home page down:
 https://www.freeiconspng.com/img/44420
 

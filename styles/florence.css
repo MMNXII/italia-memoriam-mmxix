@@ -34,12 +34,12 @@ html {
     text-align: left;
     font-family: 'Prociono', serif;
     font-size: 1.2em;
-    line-height: 1.4em;
+    line-height: 1.5em;
     width: 82%;
     margin: 0 auto;
     padding: 1em;
-    color: rgb(255, 255, 255);
-    background-color: rgba(228, 121, 0, 0.863);
+    color: rgb(209, 112, 0);
+    background-color: rgba(238, 238, 238, 0.897);
 }
 @media only screen and (min-width: 850px) {
     #intro > p {

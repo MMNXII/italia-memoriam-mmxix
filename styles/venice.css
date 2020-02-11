@@ -34,17 +34,17 @@ html {
     text-align: left;
     font-family: 'Prociono', serif;
     font-size: 1.2em;
-    line-height: 1.4em;
+    line-height: 1.5em;
     width: 82%;
     margin: 0 auto;
     padding: 1em;
     color: rgb(255, 255, 255);
     background-color: rgba(0, 97, 153, 0.863);
 }
-@media only screen and (min-width: 850px) {
+@media only screen and (min-width: 900px) {
     #intro > p {
         font-size: 1.5em;
-        width: 850px;
+        width: 900px;
         margin: 0 auto;
     }
 }
