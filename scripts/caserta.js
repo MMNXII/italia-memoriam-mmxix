@@ -5,36 +5,41 @@ document.body.style.backgroundPosition = "center";
 document.body.style.backgroundRepeat = "no-repeat";
 document.body.style.backgroundSize = "cover";
 
-// var header = document.getElementById("headerContainer");
-//     header.style.opacity = "0";
-// var introPara = document.getElementById("intro");
-//     introPara.style.opacity = "0";
-// var imgContainer = document.getElementById("imgContainer");
-//     imgContainer.style.opacity = "0";
+var img1 = document.getElementById("container1");
+    img1.style.transform = "rotate(180deg)";
+var img3 = document.getElementById("container3");
+    img3.style.transform = "rotate(180deg)";
 
-//     function headerFade() {
-//         header.style.opacity = "1";
-//         header.style.transitionProperty = "opacity";
-//         header.style.transitionDuration = "3s";
-//         header.style.transitionDelay = "2s";
+var header = document.getElementById("headerContainer");
+    header.style.opacity = "0";
+var introPara = document.getElementById("intro");
+    introPara.style.opacity = "0";
+var imgContainer = document.getElementById("imgContainer");
+    imgContainer.style.opacity = "0";
 
-//         function introParaFade() {
-//             introPara.style.opacity = "1";
-//             introPara.style.transitionProperty = "opacity";
-//             introPara.style.transitionDuration = "3s";
-//             introPara.style.transitionDelay = "4s";
+    function headerFade() {
+        header.style.opacity = "1";
+        header.style.transitionProperty = "opacity";
+        header.style.transitionDuration = "3s";
+        header.style.transitionDelay = "2s";
 
-//             function imageFade() {
-//                 imgContainer.style.opacity = "1";
-//                 imgContainer.style.transitionProperty = "opacity";
-//                 imgContainer.style.transitionDuration = "3s";
-//                 imgContainer.style.transitionDelay = "22s";
-//             }
+        function introParaFade() {
+            introPara.style.opacity = "1";
+            introPara.style.transitionProperty = "opacity";
+            introPara.style.transitionDuration = "3s";
+            introPara.style.transitionDelay = "4s";
 
-//                 imageFade();
-//             }
-//         introParaFade();
-//     }
+            function imageFade() {
+                imgContainer.style.opacity = "1";
+                imgContainer.style.transitionProperty = "opacity";
+                imgContainer.style.transitionDuration = "3s";
+                imgContainer.style.transitionDelay = "22s";
+            }
+
+                imageFade();
+            }
+        introParaFade();
+    }
 
 
 function captionAppear(className) {

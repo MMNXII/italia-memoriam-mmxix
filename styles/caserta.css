@@ -21,11 +21,11 @@ html {
     text-align: center;
 }
 #headerText {
-    font-family: "Stoke", serif;
-    font-style: normal;
-    font-size: 4.5em;
+    font-family: "Stoke", cursive;
+    font-size: 5em;
     margin: 0 auto;
     color: rgb(228, 129, 129);
+    letter-spacing: -.03em;
 }
 
 
@@ -41,12 +41,11 @@ html {
     padding: 1em;
     color: rgb(255, 255, 255);
     background-color: rgba(0, 101, 119, 0.829);
-
 }
-@media only screen and (min-width: 850px) {
+@media only screen and (min-width: 900px) {
     #intro > p {
         font-size: 1.5em;
-        width: 850px;
+        width: 900px;
         margin: 0 auto;
     }
 }
@@ -62,23 +61,6 @@ html {
     padding: 2em;
     background-color: rgba(90, 36, 9, 0.568);
 }
-/* .subImgContainer {
-    position: relative;
-    margin: .5em;
-    border-radius: 20%;
-    width: 45%;
-    height: 45%;
-    min-width: 219px;
-    min-height: 130px;
-    max-width: 359px;
-    max-height: 270px;
-    border: 2px solid rgb(253, 159, 18);
-    animation-name: border-fade;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-    animation-direction: alternate;
-} */
 .subImgContainer {
     position: relative;
     margin: .5em;
@@ -95,7 +77,6 @@ html {
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     animation-direction: alternate;
-    transform: rotate(90deg);
 }
 @media only screen and (min-width: 200px) and (max-width: 600px ) {
     .subImgContainer {
@@ -115,12 +96,6 @@ html {
     width: 100%;
     height: 100%;
     border-radius: 20%;
-}
-
-#container1, #container3 {
-    transform: scaleY(-1);
-}
-
 }
 .caption {
     padding-top: 25%;
