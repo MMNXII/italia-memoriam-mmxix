@@ -21,8 +21,9 @@ html {
     text-align: center;
 }
 #headerText {
-    font-family: "Ibarra Real Nova", serif;
-    font-size: 6em;
+    font-family: "Stoke", serif;
+    font-style: normal;
+    font-size: 5em;
     margin: 0 auto;
     color: rgb(255, 139, 44);
 }
@@ -39,7 +40,7 @@ html {
     margin: 0 auto;
     padding: 1em;
     color: rgb(255, 255, 255);
-    background-color: rgba(133, 0, 0, 0.746);
+    background-color: rgba(192, 0, 0, 0.746);
 
 }
 @media only screen and (min-width: 850px) {
