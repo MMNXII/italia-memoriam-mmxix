@@ -13,25 +13,7 @@ to view locally: 1.) download zip file
 
 
 
-Sources:
 
-map of italy:
-https://mapswire.com/countries/italy/
-
-Venice background:
-https://wallpaperaccess.com/venice
-
-Florence background:
-https://wallpaperaccess.com/florence
-
-Rome background:
-https://wallpaperaccess.com/rome
-
-arrow home page down:
-https://www.freeiconspng.com/img/44420
-
-arrow down to galleries on location pages:
-<div>Icon made from <a href="http://www.onlinewebfonts.com/icon">Icon Fonts</a> is licensed by CC BY 3.0</div>
 
 
 
