@@ -47,9 +47,9 @@ function captionAppear(className) {
         captions[i].addEventListener("click", func = () => {
 
             if (captions[i].style.opacity == "0") {
-            captions[i].style.opacity = "1";
-            captions[i].style.transition = "opacity .5s linear";
-            captions[i].style.backgroundColor = "rgba(255, 255, 255, 0.70)";
+                captions[i].style.opacity = "1";
+                captions[i].style.transition = "opacity .5s linear";
+                captions[i].style.backgroundColor = "rgba(255, 255, 255, 0.70)";
 
             } else {
                 captions[i].style.opacity = "0";
