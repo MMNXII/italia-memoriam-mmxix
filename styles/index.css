@@ -257,7 +257,11 @@ body {
     left: 0;
     font-size: .5em;
 }
-
+@media only screen and (max-width: 500px) {
+    #sources {
+        font-size: .2em;
+    }
+}
 
 
 
