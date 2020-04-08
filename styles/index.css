@@ -250,6 +250,14 @@ body {
     color: rgb(255, 255, 255);
     background-color: rgb(0, 44, 163);
 }
+#sources {
+    z-index: 10;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    font-size: .5em;
+}
+
 
 
 
